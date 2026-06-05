@@ -1,4 +1,6 @@
 # Logic48 PLC Tag Checker
+![Tests](https://github.com/Crazy048/logic48-plc-tag-checker/actions/workflows/tests.yml/badge.svg)
+
 
 A lightweight open-source CLI tool for validating PLC/HMI/SCADA tag lists.
 
