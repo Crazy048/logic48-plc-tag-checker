@@ -1,0 +1,8 @@
+name,type,address,description,area
+Pump_101_Start,Bool,%M0.0,Start,OilStation
+Pump_101_Start,Bool,%M0.1,Duplicate tag name,OilStation
+pump-102-start,Bool,%M0.2,Invalid naming style,OilStation
+Tank_101_Level,Float,%MD10,Wrong data type,OilStation
+Valve_101_OpenCmd,Bool,%M0.0,Duplicate address,OilStation
+Motor_101_RunFb,Bool,%I2.0,,OilStation
+,Real,%MD20,Missing tag name,OilStation
