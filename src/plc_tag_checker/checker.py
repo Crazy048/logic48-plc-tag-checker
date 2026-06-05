@@ -2,6 +2,7 @@ import csv
 import re
 from dataclasses import dataclass
 from pathlib import Path
+from typing import Union
 
 
 SUPPORTED_TYPES = {
@@ -25,7 +26,7 @@ class ValidationIssue:
     message: str
 
 
-def read_tags(csv_path: str | Path) -> list[dict[str, str]]:
+def read_tags(csv_path: Union[str, Path]) -> list[dict[str, str]]:
     """Read PLC/HMI/SCADA tags from a CSV file."""
     path = Path(csv_path)
 
